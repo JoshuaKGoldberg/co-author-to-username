@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   cached-factory:
-    specifier: ^0.0.1
-    version: 0.0.1
+    specifier: ^0.0.2
+    version: 0.0.2
   octokit:
     specifier: ^3.0.0
     version: 3.0.0
@@ -2367,8 +2367,8 @@ packages:
       responselike: 3.0.0
     dev: true
 
-  /cached-factory@0.0.1:
-    resolution: {integrity: sha512-nlhbhyJwz++jwl5wJR9oV3E69eCfNuWbtTia+zZslORBDBCk7hwRO1EoUbHsA1c5kOGP6vWIPPSYAxA5y5VcMw==}
+  /cached-factory@0.0.2:
+    resolution: {integrity: sha512-4mhebGQ8YyvlDAX+zOHso5MezPi2pP11ZFE7vYhDIOJifsxEi7R5geB/nrLBYzQH5nwZ9kNsLAjM+WBj6osLDg==}
     engines: {node: '>=18'}
     dev: false
 
