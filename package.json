@@ -38,7 +38,7 @@
 	},
 	"dependencies": {
 		"cached-factory": "^0.0.2",
-		"octokit": "^3.0.0"
+		"octokit": "^4.0.0"
 	},
 	"devDependencies": {
 		"@release-it/conventional-changelog": "^8.0.0",
