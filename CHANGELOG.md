@@ -1,3 +1,11 @@
+# Changelog
+
+## [0.1.2](https://github.com/JoshuaKGoldberg/co-author-to-username/compare/0.1.1...0.1.2) (2025-04-03)
+
+### Bug Fixes
+
+- bump to create-typescript-app@2 with transitions action ([#415](https://github.com/JoshuaKGoldberg/co-author-to-username/issues/415)) ([0b53480](https://github.com/JoshuaKGoldberg/co-author-to-username/commit/0b5348029d7692ea8939e34ed1b526270715cd0b)), closes [#414](https://github.com/JoshuaKGoldberg/co-author-to-username/issues/414)
+
 ## [0.1.1](https://github.com/JoshuaKGoldberg/co-author-to-username/compare/0.1.0...0.1.1) (2024-08-10)
 
 ### Bug Fixes
