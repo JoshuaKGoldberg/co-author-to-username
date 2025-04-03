@@ -9,5 +9,5 @@ export async function collectUserByEmail(
 	return fetcher instanceof Octokit
 		? (await fetcher.request("GET /search/users", { q: email })).data.items[0]
 				?.login
-		: await (fetcher as EmailFetcher)(email);
+		: await fetcher(email);
 }
