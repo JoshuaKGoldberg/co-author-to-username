@@ -1,6 +1,6 @@
 {
 	"name": "co-author-to-username",
-	"version": "0.1.2",
+	"version": "0.1.3",
 	"description": "Fetches the GitHub username for a co-author, if possible. 📇",
 	"repository": {
 		"type": "git",

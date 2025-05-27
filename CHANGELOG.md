@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.1.3](https://github.com/JoshuaKGoldberg/co-author-to-username/compare/0.1.2...0.1.3) (2025-05-27)
+
+### Bug Fixes
+
+- **deps:** update dependency octokit to v5 ([#478](https://github.com/JoshuaKGoldberg/co-author-to-username/issues/478)) ([f48e32f](https://github.com/JoshuaKGoldberg/co-author-to-username/commit/f48e32f215de68b7ad516d8623cfb1147e1e9186))
+
 ## [0.1.2](https://github.com/JoshuaKGoldberg/co-author-to-username/compare/0.1.1...0.1.2) (2025-04-03)
 
 ### Bug Fixes
