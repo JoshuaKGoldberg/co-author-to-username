@@ -35,7 +35,7 @@
 		"*": "prettier --ignore-unknown --write"
 	},
 	"dependencies": {
-		"cached-factory": "^0.1.0",
+		"cached-factory": "^0.2.0",
 		"octokit": "^5.0.0"
 	},
 	"devDependencies": {

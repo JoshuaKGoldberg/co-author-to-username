@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       cached-factory:
-        specifier: ^0.1.0
-        version: 0.1.0
+        specifier: ^0.2.0
+        version: 0.2.0
       octokit:
         specifier: ^5.0.0
         version: 5.0.5
@@ -1894,6 +1894,10 @@ packages:
 
   cached-factory@0.1.0:
     resolution: {integrity: sha512-IGOSWu+NuED5UzCRmBeqQPZ8z7SkgrD/nN67W2iY1Qv83CVhevyMexkGclJ86saXisIqxoOnbeiTWvsCHRqJBw==}
+    engines: {node: '>=18'}
+
+  cached-factory@0.2.0:
+    resolution: {integrity: sha512-6XGkilRVhace8gARfWVvkjyWoazCp21VUQXdDyWEcAz3sHSwXji76srbLfJ6BcHRAZveW9ICYprhqsdoRYZ+YQ==}
     engines: {node: '>=18'}
 
   call-id@0.1.0:
@@ -5979,6 +5983,8 @@ snapshots:
   cac@6.7.14: {}
 
   cached-factory@0.1.0: {}
+
+  cached-factory@0.2.0: {}
 
   call-id@0.1.0: {}
 
