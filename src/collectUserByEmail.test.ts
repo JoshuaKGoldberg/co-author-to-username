@@ -1,7 +1,7 @@
 import { Octokit } from "octokit";
 import { describe, expect, it, vi } from "vitest";
 
-import { collectUserByEmail } from "./collectUserByEmail.js";
+import { collectUserByEmail } from "./collectUserByEmail.ts";
 
 const login = "abc123";
 
@@ -19,7 +19,7 @@ vi.mock("octokit", () => {
 	};
 });
 
-describe("collectUserByEmail", () => {
+describe(collectUserByEmail, () => {
 	it("searches with a function when fetcher is a non-Octokit function", async () => {
 		const fetcher = (email: string) => Promise.resolve(email.split("@")[0]);
 

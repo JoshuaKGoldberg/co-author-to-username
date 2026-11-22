@@ -1,3 +1,3 @@
-export * from "./coAuthorToUsername.js";
-export * from "./createCachingCoAuthorToUsername.js";
-export type * from "./types.js";
+export * from "./coAuthorToUsername.ts";
+export * from "./createCachingCoAuthorToUsername.ts";
+export type * from "./types.ts";

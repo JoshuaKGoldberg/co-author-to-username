@@ -1,7 +1,7 @@
 import { Octokit } from "octokit";
 
-import { collectUserByEmail } from "./collectUserByEmail.js";
-import { CoAuthor, CoAuthorToUsernameOptions } from "./types.js";
+import { collectUserByEmail } from "./collectUserByEmail.ts";
+import { CoAuthor, CoAuthorToUsernameOptions } from "./types.ts";
 
 export async function coAuthorToUsername(
 	coAuthor: CoAuthor,

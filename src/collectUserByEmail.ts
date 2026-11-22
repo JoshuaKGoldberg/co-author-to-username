@@ -1,6 +1,6 @@
 import { Octokit } from "octokit";
 
-import { EmailFetcher } from "./types.js";
+import { EmailFetcher } from "./types.ts";
 
 export async function collectUserByEmail(
 	email: string,
