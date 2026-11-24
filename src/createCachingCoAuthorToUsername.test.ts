@@ -1,6 +1,6 @@
 import { describe, expect, it, vi } from "vitest";
 
-import { createCachingCoAuthorToUsername } from "./createCachingCoAuthorToUsername.js";
+import { createCachingCoAuthorToUsername } from "./createCachingCoAuthorToUsername.ts";
 
 const login = "abc123";
 
@@ -18,7 +18,7 @@ vi.mock("octokit", () => {
 	};
 });
 
-describe("createCachingCoAuthorToUsername", () => {
+describe(createCachingCoAuthorToUsername, () => {
 	it("returns a function that uses a new Octokit when no fetcher option is provided", async () => {
 		const coAuthorToUsername = createCachingCoAuthorToUsername();
 

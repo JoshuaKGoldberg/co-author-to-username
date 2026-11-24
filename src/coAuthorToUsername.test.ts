@@ -1,12 +1,12 @@
 import { describe, expect, it, vi } from "vitest";
 
-import { coAuthorToUsername } from "./coAuthorToUsername.js";
+import { coAuthorToUsername } from "./coAuthorToUsername.ts";
 
 const login = "abc123";
 
 const mockCollectUserByEmail = vi.fn();
 
-vi.mock("./collectUserByEmail.js", () => ({
+vi.mock("./collectUserByEmail.ts", () => ({
 	get collectUserByEmail() {
 		return mockCollectUserByEmail;
 	},
@@ -26,7 +26,7 @@ vi.mock("octokit", () => {
 	};
 });
 
-describe("coAuthorToUsername", () => {
+describe(coAuthorToUsername, () => {
 	it("returns the username when coAuthor has one", async () => {
 		const actual = await coAuthorToUsername({ username: login });
 

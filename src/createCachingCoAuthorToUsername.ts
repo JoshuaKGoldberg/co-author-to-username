@@ -1,13 +1,13 @@
 import { CachedFactory } from "cached-factory";
 import { Octokit } from "octokit";
 
-import { coAuthorToUsername } from "./coAuthorToUsername.js";
-import { collectUserByEmail } from "./collectUserByEmail.js";
+import { coAuthorToUsername } from "./coAuthorToUsername.ts";
+import { collectUserByEmail } from "./collectUserByEmail.ts";
 import {
 	CachingCoAuthorToUsername,
 	CoAuthor,
 	CreateCachingCoAuthorToUsernameOptions,
-} from "./types.js";
+} from "./types.ts";
 
 export function createCachingCoAuthorToUsername({
 	fetcher = new Octokit(),
