@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.4](https://github.com/JoshuaKGoldberg/co-author-to-username/compare/0.1.3...0.1.4) (2026-11-24)
+
+### Bug Fixes
+
+- bump to create-typescript-app@2.87.18 ([#818](https://github.com/JoshuaKGoldberg/co-author-to-username/issues/818)) ([1f3acc1](https://github.com/JoshuaKGoldberg/co-author-to-username/commit/1f3acc1f4490d6a43e33d9a9125ad8ff4c19f888)), closes [#817](https://github.com/JoshuaKGoldberg/co-author-to-username/issues/817)
+- **deps:** update dependency cached-factory to ^0.2.0 ([#767](https://github.com/JoshuaKGoldberg/co-author-to-username/issues/767)) ([4938640](https://github.com/JoshuaKGoldberg/co-author-to-username/commit/4938640249b488691fd900b1dfc3ec9455b8d35e))
+- **deps:** update dependency cached-factory to ^0.3.0 ([#804](https://github.com/JoshuaKGoldberg/co-author-to-username/issues/804)) ([9046be0](https://github.com/JoshuaKGoldberg/co-author-to-username/commit/9046be038f410e1cfc4d4f964b74d95738e6e3e1))
+
 ## [0.1.3](https://github.com/JoshuaKGoldberg/co-author-to-username/compare/0.1.2...0.1.3) (2025-05-27)
 
 ### Bug Fixes
